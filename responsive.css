@@ -202,15 +202,15 @@
 
 @media (max-width: 480px) {
   .strip-1 {
-    width: 5%;
-    left: 3%;
+     width: 8%;
+    left: 5%;
   }
   .strip-1 img {
     width: 35%;
   }
   .strip-2 {
-    width: 5%;
-    left: 90%;
+    width: 8%;
+    left: 85%;
   }
   .strip-2 img {
     width: 35%;
@@ -396,6 +396,10 @@
     left: 40%;
     top: 22%;
   }
+   .skills {
+    margin-top: 8%;
+    overflow: hidden;
+  }
   .skills-cont {
     margin-top: 20%;
   }
@@ -428,4 +432,40 @@
 }
 
 @media (max-width: 428px) {
+   .intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ori-head h2 {
+    font-size: 1rem;
+  }
+  .research-cont {
+    margin-top: 25%;
+  }
+  #nvda {
+    left: 40%;
+    top: 20%;
+  }
+  .user-cont {
+    margin-top: 30%;
+  }
+  .onboard-cont {
+    margin-top: 30%;
+  }
+  .wp-cont {
+    margin-top: 30%;
+  }
+  #xampp {
+    height: 12%;
+    left: 40%;
+  }
+  .skills-cont {
+    margin-top: 30%;
+  }
+  #file {
+    margin-top: 0%;
+  }
 }
